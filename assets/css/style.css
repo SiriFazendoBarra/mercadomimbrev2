@@ -58,11 +58,7 @@ body {
     width: auto;
     max-width: 300px;
     max-height: 300px;
-
-
 }
-
-
 
 .card-body {
     display: flex;
@@ -150,6 +146,7 @@ button:hover {
     background-color: var(--platinum);
     display: flex;
     flex-flow: column wrap;
+    justify-content: center;
 }
 
 .grid-item:nth-child(3) {
@@ -222,7 +219,9 @@ button:hover {
     max-width: 50px;
 }
 
-
+.aside-categorias-title{
+    margin: 0.2rem;
+}
 
 
 @media screen and (min-width: 576px) {
@@ -237,7 +236,7 @@ button:hover {
             'footer pagina ';
 
         grid-template-columns: 1fr 4fr;
-        grid-template-rows: 10vh 75vh 15vh;
+        grid-template-rows: 15vh 70vh minmax(15vh, auto);
     }
 
     .grid-item:nth-child(1) {
