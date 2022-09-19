@@ -25,11 +25,11 @@ body {
 .main {
     width: 100vw;
     display: grid;
-    grid-template-areas: 'navbar navbar navbar navbar navbar'
-        'filter filter filter filter filter'
-        'section section section section section'
-        'pagina pagina pagina pagina pagina'
-        'footer footer footer footer footer';
+    grid-template-areas: 'navbar '
+        'filter '
+        'section '
+        'pagina '
+        'footer ';
     /* grid-template-rows: auto auto auto auto auto; */
 }
 
