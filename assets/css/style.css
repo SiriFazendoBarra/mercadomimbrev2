@@ -113,7 +113,7 @@ button:hover {
 .div-logo {
     background-image: url(../img/logo.png);
     width: 200px;
-    min-height: 51px;
+    min-height: 60px;
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -139,8 +139,6 @@ button:hover {
     display: flex;
     justify-content: space-between;
     color: var(--white);
-    /* box-shadow: 0px 0px 8px 0px black; */
-    z-index: 1;
 }
 
 .grid-item:nth-child(2) {
@@ -149,7 +147,7 @@ button:hover {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-    /* box-shadow: 8px 8px 16px black; */
+    
 }
 
 .grid-item:nth-child(3) {
@@ -159,6 +157,7 @@ button:hover {
     grid-template-columns: repeat(auto-fill, minmax(min(100%, 19rem), 1fr));
     gap: 1rem;
     justify-items: center;
+    box-shadow: 0px 0px 8px -4px var(--darkJungle);   
 }
 
 .grid-item:nth-child(4) {
@@ -166,7 +165,6 @@ button:hover {
     justify-content: center;
     align-items: center;
     gap: 8px;
-    box-shadow: 0px 0px 4px black;
 }
 
 .grid-item:nth-child(5) {
@@ -176,8 +174,7 @@ button:hover {
     justify-content: end;
     background-color: var(--blueBell);
     text-align: center;
-    z-index: 1;
-    /* box-shadow: 0px 0px 8px 0px black; */
+    
 }
 
 .grid-item {
@@ -198,9 +195,7 @@ button:hover {
 .menu {
     list-style-type: none;
     display: flex;
-
     margin: 0;
-
 }
 
 .menu-item {
@@ -221,7 +216,7 @@ button:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 2rem;
+    font-size: 2rem;  
 }
 
 .btn-paginas {
